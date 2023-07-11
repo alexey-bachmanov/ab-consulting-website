@@ -1,0 +1,47 @@
+.footer {
+  width: clamp(var(--clamp-width));
+  margin: 0 auto;
+  background-color: var(--color-dark-accent);
+  padding: 1rem 4rem;
+  text-align: center;
+}
+.contact-info {
+  display: inline-flex;
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1rem;
+  transition: all 300ms;
+  color: black;
+  text-decoration: none;
+}
+.contact-info:first-child {
+  border-left: none;
+}
+.contact-info svg {
+  height: 1.5rem;
+  width: auto;
+  margin: 0 0.5rem;
+}
+.contact-info span {
+  margin: auto 0;
+}
+.contact-info:hover,
+.contact-info:active {
+  color: var(--color-light-shade);
+  background-color: var(--color-dark-shade);
+  cursor: pointer;
+}
+
+.copyright-notice {
+  display: block;
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+@media screen and (width<840px) {
+  .contact-info span {
+    display: none;
+  }
+  .phone-number {
+    display: inline !important;
+  }
+}

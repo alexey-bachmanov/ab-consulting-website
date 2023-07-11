@@ -1,0 +1,30 @@
+.main h2 {
+  padding: 0.5rem;
+}
+.service-list {
+  list-style: none;
+}
+
+.service {
+  margin: 2rem;
+  display: flex;
+}
+.service:nth-child(odd) {
+  margin-left: 4rem;
+}
+.service:nth-child(even) {
+  margin-right: 4rem;
+}
+.service:last-child {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
+.service-graphic {
+  height: auto;
+  width: auto;
+  margin-right: 1rem;
+}
+.service-heading {
+  border-bottom: 4px solid var(--color-main-brand);
+}

@@ -1,0 +1,55 @@
+:root {
+  --color-light-shade: #f8f7f8;
+  --color-light-shade-600: #ece9ec;
+  --color-light-shade-700: #d9d3d9;
+
+  --color-light-accent-300: #f7f3f5;
+  --color-light-accent-400: #e7dae0;
+  --color-light-accent: #d1b7c3;
+  --color-light-accent-600: #c7a8b7;
+  --color-light-accent-700: #b78fa2;
+
+  --color-main-brand-300: #fab6b3;
+  --color-main-brand-400: #f7928d;
+  --color-main-brand: #f36058;
+  --color-main-brand-600: #f24940;
+  --color-main-brand-700: #ef251a;
+
+  --color-dark-accent-300: #c9dbe4;
+  --color-dark-accent-400: #aec9d6;
+  --color-dark-accent: #93b8c9;
+  --color-dark-accent-600: #77a5bb;
+  --color-dark-accent-700: #5c93ad;
+
+  --color-dark-shade-300: #4a68d3;
+  --color-dark-shade-400: #3050c5;
+  --color-dark-shade: #253e97;
+  --color-dark-shade-600: #203583;
+  --color-dark-shade-700: #182863;
+
+  --clamp-width: 412px, 66vw, 900px;
+  --border-radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+html {
+  min-height: 100vh;
+  background-image: url(../public/images/subtle-prism.svg);
+}
+
+main {
+  width: clamp(var(--clamp-width));
+  margin: 0 auto;
+  background-color: var(--color-light-shade);
+}

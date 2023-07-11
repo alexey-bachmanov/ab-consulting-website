@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: var(--color-dark-shade);
+  text-decoration: none;
+  transition: all 300ms;
+}
+.contact-info svg {
+  height: 2rem;
+  width: auto;
+  margin-right: 1rem;
+}
+.contact-info:hover,
+.contact-info:active {
+  background-color: var(--color-dark-shade);
+  color: var(--color-light-shade);
+}
