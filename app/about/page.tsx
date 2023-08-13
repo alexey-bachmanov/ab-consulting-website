@@ -7,32 +7,31 @@ const About: React.FC = function () {
   return (
     <main className={styles.main}>
       <Image
-        src="/images/Profile-cropped.jpg"
-        width={400}
-        height={537}
+        src="/images/Profile-small.jpg"
+        width={455}
+        height={600}
         alt="Photograph of Alexander Bachmanov"
       />
       <div className={styles['text-container']}>
         <h3>About me</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Dr. Alexander A. Bachmanov is an expert in life sciences and
+          comparative medicine with experience in basic and applied research,
+          entrepreneurship, and drug discovery and development. He has degrees
+          in veterinary medicine and biological sciences, 40 years of experience
+          working in academia and industry, more than 100 peer-reviewed
+          scientific publications, and several patents. He served as a reviewer
+          for national and international funding organizations (including NIH
+          and NSF) and as consultant to pharmaceutical, food, beverage, and
+          flavor companies.
         </p>
-        <h3>My experience</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <a href="https://en.wikipedia.org/wiki/Alexander_Bachmanov">
+          Wikipedia
+        </a>
+        <a href="https://www.linkedin.com/in/alexander-bachmanov-4089b960/">
+          LinkedIn
+        </a>
+        <a href="/Bachmanov-Resume-2023-06.pdf">Resume</a>
       </div>
     </main>
   );

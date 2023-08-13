@@ -4,10 +4,8 @@
 .service-list {
   list-style: none;
 }
-
 .service {
   margin: 2rem;
-  display: flex;
 }
 .service:nth-child(odd) {
   margin-left: 4rem;
@@ -19,7 +17,6 @@
   margin-bottom: 0;
   padding-bottom: 2rem;
 }
-
 .service-graphic {
   height: auto;
   width: auto;

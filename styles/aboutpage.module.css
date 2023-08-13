@@ -9,6 +9,8 @@
 }
 .text-container {
   margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
 }
 .text-container h3 {
   border-bottom: 4px solid var(--color-main-brand);

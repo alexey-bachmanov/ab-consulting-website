@@ -86,3 +86,8 @@
     flex-direction: column;
   }
 }
+@media screen and (width<700px) {
+  .header {
+    width: clamp(var(--clamp-width-small));
+  }
+}

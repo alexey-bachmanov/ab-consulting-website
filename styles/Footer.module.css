@@ -45,3 +45,8 @@
     display: inline !important;
   }
 }
+@media screen and (width<700px) {
+  .footer {
+    width: clamp(var(--clamp-width-small));
+  }
+}

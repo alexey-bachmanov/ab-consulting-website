@@ -27,7 +27,8 @@
   --color-dark-shade-600: #203583;
   --color-dark-shade-700: #182863;
 
-  --clamp-width: 412px, 66vw, 900px;
+  --clamp-width: 300px, 75vw, 900px;
+  --clamp-width-small: 100vw, 100vw, 100vw
   --border-radius: 12px;
 }
 
@@ -43,13 +44,22 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
 html {
   min-height: 100vh;
   background-image: url(../public/images/subtle-prism.svg);
 }
 
 main {
+  height: 100%;
   width: clamp(var(--clamp-width));
+  max-width: 100vw;
   margin: 0 auto;
   background-color: var(--color-light-shade);
+}
+
+@media screen and (width<700px) {
+  main {
+    width: clamp(var(--clamp-width-small));
+  }
 }
