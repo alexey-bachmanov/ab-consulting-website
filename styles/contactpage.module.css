@@ -22,3 +22,8 @@
   background-color: var(--color-dark-shade);
   color: var(--color-light-shade);
 }
+@media screen and (width<700px) {
+  .main {
+    align-items: flex-start;
+  }
+}

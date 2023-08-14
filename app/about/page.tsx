@@ -13,7 +13,7 @@ const About: React.FC = function () {
         alt="Photograph of Alexander Bachmanov"
       />
       <div className={styles['text-container']}>
-        <h3>About me</h3>
+        <h3>Bio</h3>
         <p>
           Dr. Alexander A. Bachmanov is an expert in life sciences and
           comparative medicine with experience in basic and applied research,

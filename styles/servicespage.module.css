@@ -5,13 +5,7 @@
   list-style: none;
 }
 .service {
-  margin: 2rem;
-}
-.service:nth-child(odd) {
-  margin-left: 4rem;
-}
-.service:nth-child(even) {
-  margin-right: 4rem;
+  margin: 2rem 4rem;
 }
 .service:last-child {
   margin-bottom: 0;

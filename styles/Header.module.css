@@ -1,11 +1,8 @@
 .header {
   --header-height-1: 112px;
-  --header-height-2: 117px;
+  --header-height-2: 172px;
   --menu-height: 59px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* height: var(--header-height-1); */
   height: auto;
   width: clamp(var(--clamp-width));
   margin: 0 auto;
@@ -16,10 +13,12 @@
   );
 }
 
-/* ///// HEADLINE ///// */
+/* ///// LOGO ///// */
 .header-main-logo {
   display: flex;
   flex-direction: row;
+  color: var(--color-dark-shade);
+  text-decoration: none;
   padding: 0.5rem;
 }
 .header-main-logo svg {
@@ -27,63 +26,25 @@
   width: auto;
 }
 .header-main-logo h1 {
+  padding-left: 0.5rem;
   display: flex;
   flex-direction: column;
   font-size: 1.8rem;
 }
-
-/* ///// NAV MENU ///// */
-.nav-menu {
+/* ///// NAV BAR ///// */
+.navbar {
+  width: 100%;
   display: flex;
-  align-self: flex-end;
-  height: var(--menu-height);
-}
-.nav-link-level-1 {
-  height: 100%;
-  padding: 1rem 0.5rem;
-  text-decoration: none;
-  color: var(--color-light-shade);
-  transition: all 300ms;
-}
-.nav-link-level-1:hover,
-.nav-link-level-1:active,
-.nav-link-level-1-active {
-  background-color: var(--color-dark-shade-300);
-  cursor: pointer;
-}
-
-/* ///// DROPDOWN ///// */
-.dropdown-container {
-  position: relative;
-  width: 5rem;
-}
-.dropdown-menu {
-  display: block;
-  list-style: none;
-  width: max-content;
-}
-.nav-link-level-2 a {
-  z-index: 1;
-  padding: 0.5rem;
-  display: block;
-  text-decoration: none;
-  color: var(--color-dark-shade);
-  background-color: var(--color-light-shade);
-  transition: all 300ms;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-.nav-link-level-2 a:hover,
-.nav-link-level-2 a:active {
-  background-color: var(--color-light-accent);
-}
-.hidden {
-  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 /* ///// MEDIA QUERIES ///// */
 @media screen and (width<900px) {
-  .header {
+  .navbar {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media screen and (width<700px) {

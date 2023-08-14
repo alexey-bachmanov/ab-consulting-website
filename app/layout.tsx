@@ -9,11 +9,8 @@ import { Open_Sans } from 'next/font/google';
 const font = Open_Sans({ subsets: ['latin'] });
 
 // TODO: get a site description
-// BUG: fix dropdown menu on mobile
 // TODO: fill in lorem ipsum on landing page
 // TODO: replace logo SVG
-// TODO: fill in placeholder email links
-// TODO: update hero text, restyle so it looks good
 export const metadata = {
   title: 'Bachmanov Biomedical Consulting',
   description:
