@@ -13,7 +13,7 @@ const Home: React.FC = function () {
         </p>
       </div>
       <section className={styles['section-home']}>
-        <h3>Lorem ipsum</h3>
+        <h3 className={styles['section-heading']}>Lorem ipsum</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -22,7 +22,7 @@ const Home: React.FC = function () {
         </p>
       </section>
       <section className={styles['section-home']}>
-        <h3>Lorem ipsum</h3>
+        <h3 className={styles['section-heading']}>Lorem ipsum</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -31,7 +31,7 @@ const Home: React.FC = function () {
         </p>
       </section>
       <section className={styles['section-home']}>
-        <h3>Lorem ipsum</h3>
+        <h3 className={styles['section-heading']}>Lorem ipsum</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

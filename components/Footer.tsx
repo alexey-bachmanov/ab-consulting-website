@@ -9,7 +9,7 @@ const Footer: React.FC = function () {
     <footer className={styles.footer}>
       <a
         className={styles['contact-info']}
-        href="mailto:bachmanovconsulting@gmail.com"
+        href="mailto:bachmanov.consulting@gmail.com"
       >
         <FiMail />
         <span>eMail</span>

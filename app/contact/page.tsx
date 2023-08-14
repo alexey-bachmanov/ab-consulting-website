@@ -9,10 +9,10 @@ const Contact: React.FC = function () {
     <main className={styles.main}>
       <a
         className={styles['contact-info']}
-        href="mailto:bachmanovconsulting@gmail.com"
+        href="mailto:bachmanov.consulting@gmail.com"
       >
         <FiMail />
-        <span>bachmanovconsulting@gmail.com</span>
+        <span>bachmanov.consulting@gmail.com</span>
       </a>
       <a
         className={styles['contact-info']}

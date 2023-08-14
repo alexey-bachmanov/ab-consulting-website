@@ -28,13 +28,22 @@
 
 /* ///// SECTIONS ///// */
 .section-home {
-  margin: 2rem;
+  margin: 2rem 0;
 }
-.section-home:nth-child(odd) {
-  margin-left: 4rem;
+.section-heading {
+  border-bottom: 4px solid var(--color-main-brand);
 }
-.section-home:nth-child(even) {
-  margin-right: 4rem;
+.section-home:nth-child(2) {
+  margin-left: 2rem;
+  margin-right: 10rem;
+}
+.section-home:nth-child(3) {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.section-home:nth-child(4) {
+  margin-left: 10rem;
+  margin-right: 2rem;
 }
 .section-home:last-child {
   margin-bottom: 0;
