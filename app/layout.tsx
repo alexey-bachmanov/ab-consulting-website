@@ -8,13 +8,10 @@ import { Open_Sans } from 'next/font/google';
 
 const font = Open_Sans({ subsets: ['latin'] });
 
-// TODO: get a site description
-// TODO: fill in lorem ipsum on landing page
-// TODO: replace logo SVG
 export const metadata = {
   title: 'Bachmanov Biomedical Consulting',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    'Providing strategic and tactical Support to commercial and non-profit organizations and investors.',
 };
 
 export default function RootLayout({
